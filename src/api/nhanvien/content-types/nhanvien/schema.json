@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nhanviens",
+  "info": {
+    "singularName": "nhanvien",
+    "pluralName": "nhanviens",
+    "displayName": "nhanvien",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "namsinh": {
+      "type": "date"
+    },
+    "luong": {
+      "type": "decimal"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "filest": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
